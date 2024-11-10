@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    height: 85vh;
+    width: 21rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr; /* Una columna */
+    gap: 0; /* Ajusta el valor de gap según el espacio que desees */
+}
+
+.botones{
+    margin-bottom: 1.5rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr; /* Una columna */
+    gap: 10px; /* Ajusta el valor de gap según el espacio que desees */
+    width: 100%;
+}
+
+button{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    margin: 0; /* Quita el espacio alrededor de cada botón */
+    padding: 5px 10px; /* Ajusta el padding interno del botón */
+    width: 80%;
+    border-radius: .5rem;
+    border: none;
+    height: 2.5rem;
+    /* margin-bottom: .5rem; */
+    cursor: pointer;
+    margin-top: .3rem;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+button:hover{
+    background-color: yellow; /* Color al pasar el cursor */
+    color: black; /* Color del texto al pasar el cursor */
+  }
+
+.avatarImage{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+.nation{
+    color: hsl(75, 94%, 57%);
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre cada elemento */
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .descripcion h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .descripcion .nation {
+    font-weight: bold;
+    font-size: small; 
+  }
+  
+  .descripcion p {
+    margin: 0;
+    /* font-size: 1em; */
+  }
+
+  .front{
+    color: hsl(0, 0%, 84%);
+    font-size: small; 
+  }
+  
